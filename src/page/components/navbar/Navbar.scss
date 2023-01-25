@@ -1,0 +1,39 @@
+.navbar-container {
+    border: 1px solid rgba(160, 160, 160, 0.3);
+    height: 65px;
+
+    .brand {
+        border-right: 1px solid rgba(160, 160, 160, 0.3);
+        h1 {
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+    }
+
+    .icons {
+        .search-icon {
+            font-size: 20px;
+            border-left: 1px solid rgba(160, 160, 160, 0.3);
+            border-right: 1px solid rgba(160, 160, 160, 0.3);
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+
+        .bi-list {
+            font-size: 28px;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+    }
+}
+
+.navbar-container .brand h1:hover,
+.navbar-container .icons .search-icon:hover,
+.navbar-container .icons .bi-list:hover {
+    color: #2ebaae;
+}
