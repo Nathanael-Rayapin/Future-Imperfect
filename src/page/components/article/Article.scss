@@ -1,0 +1,156 @@
+.article {
+    /* Header */
+    .header {
+        height: 225px;
+
+        .section-title {
+            border: 1px solid rgba(160, 160, 160, 0.3);
+
+             h1 {
+                font-size: 30px;
+                font-weight: 900;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                color: #3c3b3b;
+                transition: all 0.5s;
+                cursor: pointer;
+            }
+        }
+
+        .section-infos {
+            border-top: 1px solid rgba(160, 160, 160, 0.3);
+            border-right: 1px solid rgba(160, 160, 160, 0.3);
+            border-bottom: 1px solid rgba(160, 160, 160, 0.3);
+
+            .date {
+                font-weight: 700;
+            }
+
+            .profile {
+                cursor: pointer;
+
+                .name p {
+                    transition: all 0.5s;
+                }
+
+                .avatar {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+    
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+        }
+    }
+    // Body
+    .body {
+        border-left: 1px solid rgba(160, 160, 160, 0.3);
+        border-right: 1px solid rgba(160, 160, 160, 0.3);
+
+        .cover {
+            height: 375px;
+            overflow: hidden;
+            
+            img {
+                object-fit: cover;
+                object-position: center;
+                transition: all 0.4s;
+                cursor: pointer;
+            }
+        }
+
+        .content p {
+            font-size: 17px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 4; /* number of lines to show */
+            line-clamp: 2; 
+            -webkit-box-orient: vertical;
+            color: #646464;
+        }
+    }
+
+    // Footer
+    .footer {
+        border-left: 1px solid rgba(160, 160, 160, 0.3);
+        border-right: 1px solid rgba(160, 160, 160, 0.3);
+        border-bottom: 1px solid rgba(160, 160, 160, 0.3);
+
+        .next-lecture button {
+            height: 60px;
+            border: 1px solid rgba(160, 160, 160, 0.3);
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            transition: all 0.5s;
+        }
+
+        .mentions {
+            p {
+                text-transform: uppercase;
+                font-size: 12px;
+                letter-spacing: 2px;
+                color: #646464;
+                border-bottom: 1px dashed #646464;
+                transition: all 0.5s;
+                cursor: pointer;
+            }
+
+            .likes,
+            .comments {
+                transition: all 0.3s;
+                cursor: pointer;
+            }
+
+            .likes .bi-heart-fill,
+            .comments .bi-chat-fill {
+                    font-size: 14px;
+                    color: rgba(160, 160, 160, 0.3);
+                    transition: all 0.3s;
+            }
+
+            .likes span,
+            .comments span {
+                font-size: 13px;
+                color: rgb(121, 121, 121);
+            }
+
+        }
+    }
+} 
+
+.article .header .section-title h1:hover,
+.article .header .section-infos .profile:hover p,
+.article .footer .mentions p:hover,
+.article .footer .mentions .likes:hover .bi-heart-fill,
+.article .footer .mentions .likes:hover span,
+.article .footer .mentions .comments:hover .bi-chat-fill,
+.article .footer .mentions .comments:hover span {
+    color: #2ebaae;
+}
+
+.article .body .cover img:hover {
+    transform: scale(1.05);
+}
+
+.article .footer .next-lecture button:hover {
+    color: #2ebaae;
+    border: 1px solid #2ebaae;
+}
+
+.custom-p {
+    font-size: 12px;
+    letter-spacing: 4px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+
