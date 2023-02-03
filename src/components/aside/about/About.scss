@@ -1,0 +1,59 @@
+.about {
+    h3 {
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 0.25em;
+        line-height: 1.65;
+        text-transform: uppercase;
+    }
+
+    .learn-more {
+        font-size: 0.6em;
+        font-weight: 800;
+        letter-spacing: 0.25em;
+        line-height: 4.8125em;
+        padding: 0 2.5em;
+        color: #3c3b3b;
+        border: 1px solid #d0d0d0;
+        border-radius: 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 0.5s;
+    }
+
+    .learn-more:hover {
+        color: #2ebaae;
+        border: 1px solid #2ebaae;
+    }
+
+    .icon-lists {
+        font-size: 20px;
+
+        .bi-twitter,
+        .bi-facebook,
+        .bi-instagram,
+        .bi-rss,
+        .bi-envelope-fill {
+            color: rgba(160, 160, 160, 0.65);
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+
+        .bi-twitter:hover,
+        .bi-facebook:hover,
+        .bi-instagram:hover,
+        .bi-rss:hover,
+        .bi-envelope-fill:hover {
+            color: #2ebaae;
+        }
+        
+    }
+
+    .copyright {
+        font-size: 0.5em;
+        font-weight: 400;
+        color: rgba(160, 160, 160, 0.65);
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+    }
+}

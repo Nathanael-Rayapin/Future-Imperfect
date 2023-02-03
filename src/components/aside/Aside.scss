@@ -1,0 +1,30 @@
+.intro {
+    .intro-img {
+        width: 90px;
+        height: 90px;
+        clip-path: polygon(50% 0%, 90% 20%, 90% 65%, 50% 85%, 10% 65%, 10% 20%);
+
+        img {
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .intro-title {
+        h1 {
+            font-weight: 800;
+            color: #3c3b3b;
+            letter-spacing: 0.25em;
+            line-height: 1.65;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-weight: 400;
+            letter-spacing: 0.25em;
+            line-height: 2.5;
+            margin-top: -1em;
+            text-transform: uppercase;
+        }
+    }
+}

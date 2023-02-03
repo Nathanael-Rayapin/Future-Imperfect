@@ -1,0 +1,55 @@
+.aside {
+    height: 300px;
+    border: 1px solid #e1e1e1;
+
+    .header {
+        height: 205px;
+        overflow: hidden;
+
+        img {
+            object-fit: cover;
+            object-position: center;
+            transition: all 0.4s;
+        }
+    }
+
+    .aside-info {
+        .aside-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+
+            img {
+                object-fit: cover;
+                object-position: center;
+                border-radius: 50%;
+            }
+        }
+
+        .aside-title-date p:nth-of-type(1) {
+            font-weight: 800;
+            font-size: 12px;
+            letter-spacing: 0.25em;
+            color: #3c3b3b;
+            transition: all 0.5s;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        .aside-title-date p:nth-of-type(2) {
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: #646464;
+        }
+    }
+}
+
+.aside .header img:hover {
+    transform: scale(1.05);
+}
+
+.aside-title-date p:nth-of-type(1):hover {
+    color: #2ebaae !important;
+} 

@@ -1,0 +1,34 @@
+.thumbnail {
+    .thumbnail-cover {
+        width: 90px;
+        height: 90px;
+
+        img {
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .thumbnail-info {
+        .thumbnail-title p {
+            font-weight: 800;
+            font-size: 12px;
+            letter-spacing: 0.25em;
+            color: #3c3b3b;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+
+        .thumbnail-date p {
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: #646464;
+        }
+    }
+}
+
+.thumbnail .thumbnail-info .thumbnail-title p:hover {
+    color: #2ebaae !important;
+} 

@@ -1,6 +1,11 @@
 .navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     border: 1px solid rgba(160, 160, 160, 0.3);
     height: 65px;
+    z-index: 99;
 
     .brand {
         border-right: 1px solid rgba(160, 160, 160, 0.3);
@@ -24,7 +29,7 @@
             cursor: pointer;
         }
 
-        .bi-list {
+        .bi-power {
             font-size: 28px;
             transition: all 0.5s;
             cursor: pointer;
@@ -34,6 +39,6 @@
 
 .navbar-container .brand h1:hover,
 .navbar-container .icons .search-icon:hover,
-.navbar-container .icons .bi-list:hover {
+.navbar-container .icons .bi-power:hover {
     color: #2ebaae;
 }

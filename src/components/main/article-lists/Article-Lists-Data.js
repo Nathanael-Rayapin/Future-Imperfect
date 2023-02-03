@@ -89,7 +89,7 @@ export const ARTICLES_DATAS = [
     author: "Cecelia F. Llanes",
     avatar:
       "https://images.unsplash.com/photo-1606752445013-eeb8cc06aabd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
-    cover: "./assets/img/frog.jpg",
+    cover: "./assets/img/crapaud.jpg",
     content: `De couleur bleutée, on la trouve au Nicaragua et au Brésil. C’est l’une des plus grandes espèces de Dendrobatidae avec ses seulement 4,7 cm en moyenne. Elle 
     vit dans des forêts tropicales humides où la température est d'au moins 25 °C. En guise de mécanisme de défense, sa peau sécrète un puissant poison, mortel pour ses proies. 
     Les glandes de leur peau produisent de la batrachotoxine, substance identifiée comme étant parmi les plus toxiques au monde. En cas d’ingestion, elle agit sur les nerfs et 
